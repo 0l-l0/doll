@@ -11,7 +11,7 @@ For API reference you can generate the library documentation from the source
 code using one of the D documentation generators (ddoc, ddox, adrdoc etc.). For
 example run:
 
-```console
+```sh
 dub build -b ddox
 ```
 
@@ -21,13 +21,13 @@ project or use the example codes from the documentation. These are also unit
 test sections therefore you can easily test all of them with the following
 command.
 
-```console
+```sh
 dub test
 ```
 
 Or if you are using ldc:
 
-```console
+```sh
 dub test --compiler=ldc2
 ```
 

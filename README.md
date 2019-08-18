@@ -11,7 +11,9 @@ For API reference you can generate the library documentation from the source
 code using one of the D documentation generators (ddoc, ddox, adrdoc etc.). For
 example run:
 
- $ dub build -b ddox
+```console
+dub build -b ddox
+```
 
 ## Testing
 To test the implemented optimization functions you can write your own test
@@ -19,11 +21,15 @@ project or use the example codes from the documentation. These are also unit
 test sections therefore you can easily test all of them with the following
 command.
 
- $ dub test
+```console
+dub test
+```
 
 Or if you are using ldc:
 
- $ dub test --compiler=ldc2
+```console
+dub test --compiler=ldc2
+```
 
 ## TODO list
 
@@ -34,5 +40,5 @@ express mathematical formulas
 
 ## License
 The library is distributed under the terms and conditions of GNU LGPL v3.0. 
-Copyright (C) 2019, 0l-l0
+Copyright &copy; 2019, 0l-l0
 

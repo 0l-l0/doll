@@ -1,0 +1,24 @@
+{
+	"name": "doll",
+	"targetType": "library",
+	"authors": [
+		"0l-l0"
+	],
+	"description": "doll :: D Optimization Library for Learning - A 'doll' you can play with, dress it up and imitate some real-life situations, as if it was alive.",
+	"copyright": "Copyright © 2019, 0l-l0",
+	"license": "LGPL-3.0",
+	"targetPath": "./bin",
+	"configurations": [
+		{
+			"name": "default"
+		},
+		{
+			"name": "with-lapack",
+			"versions": ["WithLapack"],
+			"dependencies": {
+				"lapack": ">=0.0.2"
+			},
+			"libs": ["lapack"]
+		}
+	]
+}

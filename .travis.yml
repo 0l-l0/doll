@@ -1,0 +1,23 @@
+language: d
+sudo: false
+
+addons:
+  apt:
+    update: true
+    packages:
+    - liblapack3
+    - liblapacke
+
+matrix:
+  include:
+  - d: dmd-2.087.0
+  - d: dmd-2.086.0
+  - d: ldc-1.15.0
+  - d: ldc-1.16.0
+
+script:
+  - dub test -b=unittest-cov --compiler=${DC}
+  - dub build --compiler=${DC}
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

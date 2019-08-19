@@ -1,4 +1,7 @@
 # doll
+[![Build Status](https://travis-ci.com/0l-l0/doll.svg?branch=master)](https://travis-ci.com/0l-l0/doll)
+[![codecov](https://codecov.io/gh/0l-l0/doll/branch/master/graph/badge.svg)](https://codecov.io/gh/0l-l0/doll)
+
 **D** **O**ptimization **L**ibrary for **L**earning - A _doll_ you can play with,
 dress it up and imitate some real-life situations, as if it was alive.
 
